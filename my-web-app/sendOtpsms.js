@@ -41,7 +41,7 @@ async function sendOtpSms(toPhoneNumber) {
 
 // Example usage
 (async () => {
-    const recipientPhoneNumber = '+917405350013'; // Replace with the user's phone number
+    const recipientPhoneNumber = '+91000000000'; // Replace with the user's phone number
     const hashedOTP = await sendOtpSms(recipientPhoneNumber);
     console.log('Stored Hashed OTP:', otpStorage[recipientPhoneNumber]);
 })();
